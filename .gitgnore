@@ -1,0 +1,25 @@
+# Ignorar arquivos de ambiente e sensíveis
+/backend/.env
+
+# Ignorar arquivos de configurações do PHPStorm
+.idea/
+*.iml
+
+# Ignorar dependências e caches comuns do PHP
+vendor/
+composer.lock
+
+# Ignorar logs, caches e relatórios
+*.log
+*.cache
+*.report
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+
+# Ignorar arquivos específicos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar possíveis arquivos de compilação temporária
+node_modules/
